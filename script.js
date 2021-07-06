@@ -73,7 +73,7 @@ class App {
         // Get data from local storage
         this._getLocalStorage();
 
-        // Attatch event handlers
+        // Attatch event handlers 
         form.addEventListener('submit', this._newWorkout.bind(this));
         inputType.addEventListener('change', this._toggleElvationField);
         containerWorkouts.addEventListener('click', this._moveToPopup.bind(this));
