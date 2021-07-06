@@ -67,7 +67,7 @@ class App {
     #workouts = [];
 
     constructor() {
-        // Get user's postion
+        // Get user's postion .
         this._getPostion();
 
         // Get data from local storage
