@@ -70,7 +70,7 @@ class App {
         // Get user's postion .
         this._getPostion();
 
-        // Get data from local storage
+        //  Get data from local storage
         this._getLocalStorage();
 
         // Attatch event handlers 
